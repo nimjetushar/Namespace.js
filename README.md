@@ -11,4 +11,4 @@ app.test = {"name": "Hello"};
 Namespace("app.test.demo");
 
 ```
-Note: While creating namespace the nested member variable should always be **object** any other member type will result in error. 
+Note: While creating namespace the nested member variable should always be **object** and any other member type (such as string, number, boolean, etc...) will result in error. 
