@@ -11,4 +11,14 @@ app.test = {"name": "Hello"};
 Namespace("app.test.demo");
 
 ```
+
+## Change the seperator (default is '.')
+
+```
+Namespace.separator = '/' // seperator can be any character
+
+Namespace("app/test/demo")
+
+```
+
 Note: While creating namespace the nested member variable should always be **object** and any other member type (such as string, number, boolean, etc...) will result in error. 

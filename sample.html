@@ -13,10 +13,24 @@
     .text-center {
         text-align: center;
     }
+
+    .code-cont {
+        width: 40%;
+        margin: 0 auto;
+        background: lightgrey;
+        padding: 3em;
+        border-radius: 5px;
+    }
 </style>
 
 <body>
-    <h1 class="text-center">Namespace sample page</h1>
+    <h1 class="text-center">Namespace.js sample page</h1>
+    <div class="code-cont">
+        <code>Namespace("app.test");</code><br>
+        <code> app.test = { "name": "Hello" };</code><br>
+        <code>Namespace("app.test.demo");</code><br>
+        <code>console.log(app)</code>
+    </div>
     <h3 class="text-center">Open console for testing the output</h3>
 </body>
 

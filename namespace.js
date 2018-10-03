@@ -1,4 +1,11 @@
+/*
+ * @author Tushar
+ * @version 1.0
+ * This library is used create namespaces into javaScript application.
+ */
 var Namespace = (function(window) {
+  "use strict";
+
   function _init(current, part, parent) {
     if (current) {
       return current;
