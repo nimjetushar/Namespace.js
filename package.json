@@ -1,0 +1,28 @@
+{
+  "name": "Namespace.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "namespace.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "gh-pages -d sample.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimjetushar/Namespace.js.git"
+  },
+  "keywords": [],
+  "author": "Tushar Nimje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimjetushar/Namespace.js/issues"
+  },
+  "homepage": "https://github.com/nimjetushar/Namespace.js#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "jest": "24.5.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
