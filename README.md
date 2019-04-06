@@ -1,5 +1,7 @@
 # Namespace.js
 
+[![Build Status](https://travis-ci.com/nimjetushar/Namespace.js.svg?branch=master)](https://travis-ci.com/nimjetushar/Namespace.js)
+<br/>
 [![GitHub license](https://img.shields.io/github/license/nimjetushar/Namespace.js.svg)](https://github.com/nimjetushar/Namespace.js/blob/master/LICENSE)
 
 Creates namespace for JavaScript applications
